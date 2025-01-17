@@ -34,4 +34,4 @@ input_text = st.text_input("enter the sequence of words","Please enter here")
 if st.button("predict next word"):
     max_sequence_len = model.input_shape[1]
     word = predict_next_word(model, tokenizer,input_text,max_sequence_len)
-    st.write(f'Nxt word :{word}')
+    st.write(f'Next word :{word}')
