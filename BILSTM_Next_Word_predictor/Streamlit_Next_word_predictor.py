@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 
 
 #load the model for prediction
-model = load_model('Next_Word_Predictor_BILstm.h5')
+model = load_model('Next_Word_Predictor_BILstm.keras')
 
 
 #load tokenizer
