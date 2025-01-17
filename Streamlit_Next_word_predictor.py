@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 #load the model for prediction
-model = load_model('next_word_predictor.keras')
+model = load_model('next_word_predictor.h5')
 
 
 #load tokenizer
