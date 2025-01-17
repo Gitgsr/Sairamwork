@@ -1,8 +1,9 @@
 import streamlit as st
 import numpy as np
 import pickle
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
+
 
 #load the model for prediction
 model = load_model('next_word_predictor.h5')
